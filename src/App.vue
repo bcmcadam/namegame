@@ -13,10 +13,9 @@
 
 <script>
 import axios from 'axios';
-import namegame from './components/namegame.vue'
 
 export default {
-  name: 'app',
+  name: 'NameGame',
     data () {
     return {
       people: [],
@@ -29,7 +28,7 @@ export default {
     this.getPeople()
   },
   components: {
-    namegame
+    
   },
   methods: {
     getPeople: function () { 
